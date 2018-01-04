@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+	<title>Timeline</title>
+	<meta name="description" content="Timeline de Yoann DEQUEKER">
+    <meta name="author" content="Yoann Dequeker">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/timeline.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/timeline.js"></script>
+    <script src="js/resizing.js"></script>
+    <script src="js/competences.js"></script>
+    <script src="js/projet.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row titre">
+            <div class="container">
+                <center>
+                    <h1> Put Your <br> Title </h1>
+                </center>
+            </div>
+            <div class="about">
+                <p class="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lorem purus, semper vel sem eu, vehicula elementum tellus. Nulla vitae ultrices tortor, ac porta risus. In nisi nulla, convallis a feugiat vitae, sodales in dui. Morbi aliquam eros id velit feugiat, quis porta velit tempus. Morbi nec felis ut nisl congue euismod a eget tortor. Duis at euismod nunc, sit amet luctus libero. Nulla aliquam eget lacus sit amet ornare.
+                    Donec quis arcu justo. Pellentesque malesuada sapien justo, vel volutpat ante pharetra a. Praesent ultrices ipsum risus, a ullamcorper nulla fermentum ut. Curabitur pharetra interdum nibh et cursus. Nulla convallis dolor lorem, at tincidunt eros consequat a. Etiam vel velit velit. Etiam rutrum faucibus nisi id eleifend. Sed id mi nulla. Donec a cursus magna. Aliquam lacus mauris, accumsan ut purus vitae, porta rutrum sapien. Aliquam quis erat at purus suscipit volutpat. 
+                </p>
+            </div>
+        </div>
+
+
+        <div class="row competences">
+            <div class="container">
+                <div class="row">
+                    <h2 class="titre">Mes Projets</h2>
+                    <div class="container-fluid projet">
+                        <div class="col-md-4 projet">
+                            <div class="projet-hover-mac" style="background-color:#e3e4e8;">
+                                <img class="projet-hover-mac" src="img/mac.jpg" style="max-width:100%;" alt="">
+                                <div id="projet-hover-mac-detail">
+                                    <h3 class="projet-titre">Titre du projet</h3>
+                                    <p class="projet-detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lorem purus, semper vel sem eu, vehicula elementum tellus. Nulla vitae ultrices tortor, ac porta risus.</p> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 projet" style="background-color:#e3e4e8;">
+                            <div class="projet-hover-reflex">
+                                <img class="projet-hover-reflex" src="img/reflex.jpg" style="max-width:100%;" alt="">
+                                <div id="projet-hover-reflex-detail">
+                                    <h3 class="projet-titre">Titre du projet</h3>
+                                    <p class="projet-detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lorem purus, semper vel sem eu, vehicula elementum tellus. Nulla vitae ultrices tortor, ac porta risus.</p> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 projet" style="background-color:#e3e4e8;">
+                            <div class="projet-hover-iphone">
+                                <img class="projet-hover-iphone" src="img/iphone.jpg" style="max-width:100%;" alt="">
+                                <div id="projet-hover-iphone-detail">
+                                    <h3 class="projet-titre">Titre du projet</h3>
+                                    <p class="projet-detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lorem purus, semper vel sem eu, vehicula elementum tellus. Nulla vitae ultrices tortor, ac porta risus.</p> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h2 class="titre">Mes Compétences</h2>
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-2 competences-label">
+                            <p class="competences-tools-wordpress"></p>
+                        </div>
+                        <div class="col-md-6" style="padding-top:0.6%;">
+                            <div class="competences-bar-wordpress" id="75">
+                            </div>
+                        </div>
+                        <div class="competences-value-wordpress">
+                            <p class="competences-value-wordpress"></p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-2 competences-label">
+                            <p class="competences-tools-wix"></p>
+                        </div>
+                        <div class="col-md-6" style="padding-top:0.6%;">
+                            <div class="competences-bar-wix" id="35">
+                            </div>
+                        </div>
+                        <div class="competences-value-wix">
+                            <p class="competences-value-wix"></p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-2 competences-label">
+                            <p class="competences-tools-photoshop"></p>
+                        </div>
+                        <div class="col-md-6" style="padding-top:0.6%;">
+                            <div class="competences-bar-photoshop" id="58">
+                            </div>
+                        </div>
+                        <div class="competences-value-photoshop">
+                            <p class="competences-value-photoshop"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row timeline">
+            <div class="col-md-12 col-xs-12">
+                <h2 class="titre" style="padding-top:96px;"> D'ou je viens</h2>
+                <section id="timeline">
+                    <div class="timeline-block row" id="block1">
+                        <div class="timeline-block-icone">
+
+                        </div>
+                        <div class="timeline-block-content">
+                            <span class="date">2014-2016</span>
+                            <h2> Titre Section 1</h2>
+                            <p class="timeline-block-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+                                <br><br> Double-cliquer pour en savoir plus
+                            </p>
+                        </div>
+                        <div class="descriptif block1">
+                            <p class="descriptif block1">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lorem purus, semper vel sem eu, vehicula elementum tellus. Nulla vitae ultrices tortor, ac porta risus. In nisi nulla, convallis a feugiat vitae, sodales in dui. Morbi aliquam eros id velit feugiat, quis porta velit tempus. Morbi nec felis ut nisl congue euismod a eget tortor. Duis at euismod nunc, sit amet luctus libero. Nulla aliquam eget lacus sit amet ornare.
+                                Donec quis arcu justo. Pellentesque malesuada sapien justo, vel volutpat ante pharetra a. Praesent ultrices ipsum risus, a ullamcorper nulla fermentum ut. Curabitur pharetra interdum nibh et cursus. Nulla convallis dolor lorem, at tincidunt eros consequat a. Etiam vel velit velit. Etiam rutrum faucibus nisi id eleifend. Sed id mi nulla. Donec a cursus magna. Aliquam lacus mauris, accumsan ut purus vitae, porta rutrum sapien. Aliquam quis erat at purus suscipit volutpat. 
+                                
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-block row" id="block2">
+                        <div class="timeline-block-icone">
+
+                        </div>
+                        <div class="timeline-block-content">
+                            <span class="date">2012-2014</span>
+                            <h2> Titre Section 2</h2>
+                            <p class="timeline-block-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+                                <br><br> Double-cliquer pour en savoir plus
+                            </p>
+                        </div>
+                        <div class="descriptif block2">
+                            <p class="descriptif block2">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lorem purus, semper vel sem eu, vehicula elementum tellus. Nulla vitae ultrices tortor, ac porta risus. In nisi nulla, convallis a feugiat vitae, sodales in dui. Morbi aliquam eros id velit feugiat, quis porta velit tempus. Morbi nec felis ut nisl congue euismod a eget tortor. Duis at euismod nunc, sit amet luctus libero. Nulla aliquam eget lacus sit amet ornare.
+                                Donec quis arcu justo. Pellentesque malesuada sapien justo, vel volutpat ante pharetra a. Praesent ultrices ipsum risus, a ullamcorper nulla fermentum ut. Curabitur pharetra interdum nibh et cursus. Nulla convallis dolor lorem, at tincidunt eros consequat a. Etiam vel velit velit. Etiam rutrum faucibus nisi id eleifend. Sed id mi nulla. Donec a cursus magna. Aliquam lacus mauris, accumsan ut purus vitae, porta rutrum sapien. Aliquam quis erat at purus suscipit volutpat. 
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-block row" id="block3">
+                        <div class="timeline-block-icone">
+                            
+                        </div>
+                        <div class="timeline-block-content">
+                            <span class="date">2010-2012</span>
+                            <h2> Titre Section 3</h2>
+                            <p class="timeline-block-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+                                <br><br> Double-cliquer pour en savoir plus
+                            </p>
+                        </div>
+
+                        <div class="descriptif block3">
+                            <p class="descriptif block3">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lorem purus, semper vel sem eu, vehicula elementum tellus. Nulla vitae ultrices tortor, ac porta risus. In nisi nulla, convallis a feugiat vitae, sodales in dui. Morbi aliquam eros id velit feugiat, quis porta velit tempus. Morbi nec felis ut nisl congue euismod a eget tortor. Duis at euismod nunc, sit amet luctus libero. Nulla aliquam eget lacus sit amet ornare.
+                                Donec quis arcu justo. Pellentesque malesuada sapien justo, vel volutpat ante pharetra a. Praesent ultrices ipsum risus, a ullamcorper nulla fermentum ut. Curabitur pharetra interdum nibh et cursus. Nulla convallis dolor lorem, at tincidunt eros consequat a. Etiam vel velit velit. Etiam rutrum faucibus nisi id eleifend. Sed id mi nulla. Donec a cursus magna. Aliquam lacus mauris, accumsan ut purus vitae, porta rutrum sapien. Aliquam quis erat at purus suscipit volutpat. 
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="timeline-block row" id="block4">
+                        <div class="timeline-block-icone">
+                            
+                        </div>
+                        <div class="timeline-block-content">
+                            <span class="date">2008-2010</span>
+                            <h2> Titre Section 4</h2>
+                            <p class="timeline-block-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+                                <br><br> Double-cliquer pour en savoir plus
+                            </p>
+                        </div>
+
+                        <div class="descriptif block4">
+                            <p class="descriptif block4">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lorem purus, semper vel sem eu, vehicula elementum tellus. Nulla vitae ultrices tortor, ac porta risus. In nisi nulla, convallis a feugiat vitae, sodales in dui. Morbi aliquam eros id velit feugiat, quis porta velit tempus. Morbi nec felis ut nisl congue euismod a eget tortor. Duis at euismod nunc, sit amet luctus libero. Nulla aliquam eget lacus sit amet ornare.
+                                Donec quis arcu justo. Pellentesque malesuada sapien justo, vel volutpat ante pharetra a. Praesent ultrices ipsum risus, a ullamcorper nulla fermentum ut. Curabitur pharetra interdum nibh et cursus. Nulla convallis dolor lorem, at tincidunt eros consequat a. Etiam vel velit velit. Etiam rutrum faucibus nisi id eleifend. Sed id mi nulla. Donec a cursus magna. Aliquam lacus mauris, accumsan ut purus vitae, porta rutrum sapien. Aliquam quis erat at purus suscipit volutpat. 
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <div class="contact">
+                    <p class="contact">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lorem purus, semper vel sem eu, vehicula elementum tellus. Nulla vitae ultrices tortor, ac porta risus. In nisi nulla, convallis a feugiat vitae, sodales in dui. Morbi aliquam eros id velit feugiat, quis porta velit tempus. Morbi nec felis ut nisl congue euismod a eget tortor. Duis at euismod nunc, sit amet luctus libero. Nulla aliquam eget lacus sit amet ornare.
+                        Donec quis arcu justo. Pellentesque malesuada sapien justo, vel volutpat ante pharetra a. Praesent ultrices ipsum risus, a ullamcorper nulla fermentum ut. Curabitur pharetra interdum nibh et cursus. Nulla convallis dolor lorem, at tincidunt eros consequat a. Etiam vel velit velit. Etiam rutrum faucibus nisi id eleifend. Sed id mi nulla. Donec a cursus magna. Aliquam lacus mauris, accumsan ut purus vitae, porta rutrum sapien. Aliquam quis erat at purus suscipit volutpat. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="container-fluid">
+                <div class="row end">
+                </div>
+                <div class="row footer">
+                    <center>
+                        <p class="footer">Designed by Wix.com • Coded by Yoann Dequeker</p>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
